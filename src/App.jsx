@@ -6,7 +6,7 @@ import { useQuery } from "@apollo/client";
 import { ThreeSteps } from "./components/ThreeSteps";
 import { Construction } from "./components/Construction";
 import { ProjectsSection } from "./components/ProjectsSection";
-
+import { Footer } from "./components/shared/footer//Footer";
 import { GET_ALL_POSTS } from "./query/homepageQuery";
 
 function App() {
@@ -14,9 +14,6 @@ function App() {
 
   if (loading || error) return <></>;
 
-  // console.log(
-  //   data.posts.edges[0].node?.rutzky?.cards?.cardOne?.icon?.sourceUrl
-  // );
   return (
     <section style={{ width: "100%", backgroundColor: "#fff" }}>
       <div
@@ -75,6 +72,7 @@ function App() {
             />
           </button>
         </div>
+        <Footer />
       </div>
     </section>
   );

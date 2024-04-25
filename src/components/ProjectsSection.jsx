@@ -44,7 +44,9 @@ export const ProjectsSection = ({ data }) => {
         }}
       >
         {cards &&
-          cards.map((card, index) => <ProjectCard card={card} index={index} />)}
+          cards.map((card, index) => (
+            <ProjectCard card={card} index={index} key={card.title} />
+          ))}
       </section>
     </section>
   );
