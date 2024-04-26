@@ -1,0 +1,48 @@
+.financingSection {
+  background-color: #204d3a;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.inner_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+}
+
+.logo_image {
+  width: 515px;
+  height: 567px;
+}
+
+.inner_wrapper_info {
+  text-align: left;
+  max-width: 400px;
+}
+
+.header_wrapper {
+  text-align: left;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.intro {
+  font-size: 30px;
+  line-height: normal;
+}
+
+.paragraph_regular {
+  font-size: 22px;
+  font-weight: 100;
+}

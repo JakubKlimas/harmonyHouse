@@ -9,6 +9,7 @@ import { MainCarouselCard } from "./components/MainCarouselCard/MainCarouselCard
 import { Header } from "./components/shared/header/Header";
 import { Footer } from "./components/shared/footer//Footer";
 import { GET_ALL_POSTS } from "./query/homepageQuery";
+import { FinancingSection } from "./components/FinancingSection/FinancingSection";
 
 function App() {
   const { loading, error, data } = useQuery(GET_ALL_POSTS);
@@ -82,6 +83,7 @@ function App() {
             />
           </button>
         </div>
+        <FinancingSection />
         <Footer />
       </div>
     </section>
