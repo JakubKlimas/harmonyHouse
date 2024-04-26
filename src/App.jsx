@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 
 import { useQuery } from "@apollo/client";
@@ -6,6 +5,8 @@ import { useQuery } from "@apollo/client";
 import { ThreeSteps } from "./components/ThreeSteps";
 import { Construction } from "./components/Construction";
 import { ProjectsSection } from "./components/ProjectsSection";
+import { MainCarouselCard } from "./components/MainCarouselCard/MainCarouselCard";
+import { Header } from "./components/shared/header/Header";
 import { Footer } from "./components/shared/footer//Footer";
 import { GET_ALL_POSTS } from "./query/homepageQuery";
 
@@ -16,6 +17,15 @@ function App() {
 
   return (
     <section style={{ width: "100%", backgroundColor: "#fff" }}>
+      <div
+        style={{
+          backgroundImage: 'url("/src/assets/mainBackground.png")',
+          height: "130vh",
+        }}
+      >
+        <Header />
+        <MainCarouselCard />
+      </div>
       <div
         style={{
           width: "100%",
