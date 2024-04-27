@@ -1,0 +1,22 @@
+.slider-container {
+  max-width: 700px;
+  text-align: left;
+  margin-left: 18rem;
+  margin-top: 5rem;
+}
+
+.slick-dots {
+  left: 0;
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: normal;
+}
+.thin {
+  font-weight: 100;
+  line-height: normal;
+  font-size: 40px;
+}
