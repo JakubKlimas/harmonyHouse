@@ -11,6 +11,7 @@ import { Header } from "./components/shared/header/Header";
 import { Footer } from "./components/shared/footer//Footer";
 import { GET_ALL_POSTS } from "./query/homepageQuery";
 import { FinancingSection } from "./components/FinancingSection/FinancingSection";
+import { ValuesSlider } from "./components/ValuesSlider/ValuesSlider";
 
 function App() {
   const { loading, error, data } = useQuery(GET_ALL_POSTS);
@@ -21,12 +22,13 @@ function App() {
     <section style={{ width: "100%", backgroundColor: "#fff" }}>
       <div
         style={{
+          paddingBottom: "5rem",
           backgroundImage: 'url("/src/assets/mainBackground.png")',
-          height: "130vh",
         }}
       >
         <Header />
         <MainCarouselCard />
+        <ValuesSlider />
       </div>
       <div
         style={{
