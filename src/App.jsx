@@ -5,6 +5,7 @@ import { useQuery } from "@apollo/client";
 import { ThreeSteps } from "./components/ThreeSteps";
 import { Construction } from "./components/Construction";
 import { ProjectsSection } from "./components/ProjectsSection";
+import { AboutTeam } from "./components/AboutTeam/AboutTeam";
 import { MainCarouselCard } from "./components/MainCarouselCard/MainCarouselCard";
 import { Header } from "./components/shared/header/Header";
 import { Footer } from "./components/shared/footer//Footer";
@@ -42,8 +43,12 @@ function App() {
         <div
           style={{
             position: "relative",
-            backgroundColor: "#f3f5f7",
-            height: 400,
+            backgroundColor: "#e3e4e5",
+            height: 600,
+            width: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
           }}
         >
           <ProjectsSection data={data} />
@@ -58,7 +63,6 @@ function App() {
               bottom: 50,
               marginLeft: "auto",
               marginRight: "auto",
-              right: -150,
               display: "flex",
               alignItems: "center",
               justifyContent: "flex-start",
@@ -73,6 +77,7 @@ function App() {
                 fontFamily: "Druk Wide , sans-serif",
                 marginLeft: "1rem",
               }}
+              className="cta__button"
             >
               ZOBACZ WIĘCEJ
             </p>
@@ -83,6 +88,7 @@ function App() {
             />
           </button>
         </div>
+        <AboutTeam data={data} />
         <FinancingSection />
         <Footer />
       </div>

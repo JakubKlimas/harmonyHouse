@@ -1,0 +1,73 @@
+.about-team__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  margin: 3rem 0;
+}
+
+.about-team__img {
+  width: 50%;
+  max-width: 500px;
+}
+
+.about-team__button {
+  border: 1px solid #204d39;
+  color: #204d39;
+  font-weight: bold;
+  font-family: Durk Wide, sans-serif;
+  width: 200px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.about-team__button > p {
+  margin-left: 1rem;
+}
+
+.about-team__button:hover {
+  border: 1px solid #48a27a;
+}
+
+.about-team__button:hover > p {
+  color: #48a27a;
+}
+
+.about-team__title {
+  color: #204d39;
+  font-family: Nexa, sans-serif;
+  font-size: 1.875rem;
+  font-weight: 100;
+  text-align: left;
+}
+
+.about-team__description {
+  color: #666666;
+  font-family: Robo, sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 300;
+}
+
+.about-team__article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.about-team__btc-cta {
+  display: inline-block;
+  -webkit-transform: scale(1.3, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.3, 1); /* Firefox */
+  -ms-transform: scale(1.3, 1); /* IE 9 */
+  -o-transform: scale(1.3, 1); /* Opera */
+  transform: scale(1.3, 1);
+}

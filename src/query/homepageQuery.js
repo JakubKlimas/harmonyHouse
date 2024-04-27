@@ -12,6 +12,13 @@ export const GET_ALL_POSTS = gql`
               title
             }
           }
+          team {
+            team {
+              btnText
+              description
+              title
+            }
+          }
           constructionProjects {
             constructionProjects {
               card1 {

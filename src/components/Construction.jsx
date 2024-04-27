@@ -13,7 +13,7 @@ export const Construction = ({ data }) => {
     <section
       style={{
         backgroundImage: 'url("/src/assets/construction.png")',
-        margin: "4rem 0 10rem 0",
+        margin: "4rem 0 0 0",
         width: "100%",
         height: "100vh",
         minHeight: "100%",

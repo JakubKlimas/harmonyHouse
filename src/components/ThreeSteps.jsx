@@ -7,7 +7,7 @@ export const ThreeSteps = ({ data }) => (
       alignItems: "flex-end",
       justifyContent: "center",
       gap: "2rem",
-      marginTop: "10rem",
+      marginTop: "4rem",
     }}
   >
     <div style={{ position: "relative" }}>

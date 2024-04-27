@@ -49,6 +49,7 @@ export const FinancingSection = () => {
                   fontFamily: "Druk Wide , sans-serif",
                   marginLeft: "1rem",
                 }}
+                className="financial-btn__cta"
               >
                 WIĘCEJ
               </p>

@@ -20,27 +20,16 @@ export const ProjectsSection = ({ data }) => {
         marginRight: "auto",
         left: 0,
         right: 0,
-        width: "100%",
+        width: "80%",
+        maxWidth: "1200px",
       }}
     >
-      <h5
-        style={{
-          color: "#fff",
-          fontFamily: "Gotham Rounded , sans-serif",
-          fontWeight: "bold",
-          fontSize: 18,
-          position: "absolute",
-          top: 60,
-          left: -480,
-        }}
-      >
-        PROJEKTY
-      </h5>
       <section
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          position: "relative",
         }}
       >
         {cards &&
@@ -48,6 +37,19 @@ export const ProjectsSection = ({ data }) => {
             <ProjectCard card={card} index={index} key={card.title} />
           ))}
       </section>
+      <h5
+        style={{
+          color: "#fff",
+          fontFamily: "Gotham Rounded , sans-serif",
+          fontWeight: "bold",
+          fontSize: "0.8rem",
+          position: "absolute",
+          top: 80,
+          left: 120,
+        }}
+      >
+        PROJEKTY
+      </h5>
     </section>
   );
 };

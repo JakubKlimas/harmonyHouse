@@ -29,7 +29,7 @@ export const Header = () => {
         </li>
         <li className="btn__cta">
           <Link className="cta_link" to={`contacts/2`}>
-            WYCENA
+            WYCENA ▶
           </Link>
         </li>
       </ul>
