@@ -1,4 +1,6 @@
-import Arrow from "../../../assets/right-arrow.png";
+import Arrow from "../../../assets/right-arrow-white.png";
+
+import "./card.css";
 
 export const Card = ({ card }) => {
   const description = {
@@ -18,6 +20,7 @@ export const Card = ({ card }) => {
         style={{ fontWeight: 100, fontSize: 40, marginTop: 0 }}
       />
       <button
+        className="card__cta-btn"
         style={{
           border: "1px solid white",
           width: 230,

@@ -1,5 +1,7 @@
-import Arrow from "../assets/right-arrow.png";
+import Arrow from "../assets/right-arrow-white.png";
 import ConstructionImg from "../assets/construction.png";
+
+import "./construction.css";
 
 export const Construction = ({ data }) => {
   const markupDescription = {
@@ -65,6 +67,7 @@ export const Construction = ({ data }) => {
         >
           <p
             style={{ fontWeight: "bold", textAlign: "left" }}
+            className="construction__cta-btn"
             dangerouslySetInnerHTML={buttonText}
           ></p>
           <img src={Arrow} style={{ width: 40, fill: "#fff" }} />

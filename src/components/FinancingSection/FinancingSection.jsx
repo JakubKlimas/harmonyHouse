@@ -1,7 +1,7 @@
 import "./styles.css";
 
 import HLogo from "../../assets/h-logo-big.png";
-import Arrow from "../../assets/right-arrow.png";
+import Arrow from "../../assets/right-arrow-white.png";
 
 export const FinancingSection = () => {
   return (
