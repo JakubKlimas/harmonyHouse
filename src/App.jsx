@@ -25,8 +25,9 @@ function App() {
     <section style={{ width: "100%", backgroundColor: "#fff" }}>
       <div
         style={{
-          paddingBottom: "5rem",
+          paddingBottom: "10rem",
           backgroundImage: `url("${Background}")`,
+          backgroundPosition: "bottom",
         }}
       >
         <Header />

@@ -23,6 +23,7 @@ export const ValuesSlider = ({ data }) => {
 
   return (
     <div className="slider-container">
+      <h5>WARTOŚCI</h5>
       <Slider {...settings}>
         {cards &&
           cards.map((card, index) => (

@@ -4,22 +4,30 @@ export const Card = ({ card }) => {
   };
 
   return (
-    <div>
-      <h3 dangerouslySetInnerHTML={description} style={{ fontWeight: 100 }} />
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-end",
+      }}
+    >
+      <h3
+        dangerouslySetInnerHTML={description}
+        style={{ fontWeight: 100, fontSize: 40, marginTop: 0 }}
+      />
       <button
         style={{
           border: "1px solid white",
           width: 230,
-          height: 40,
+          height: 60,
           borderRadius: 100,
           backgroundColor: "transparent",
           bottom: 50,
-          marginLeft: "auto",
-          right: -150,
           display: "flex",
           alignItems: "center",
           justifyContent: "flex-start",
-          gap: "2rem",
+          gap: "0.8rem",
+          marginRight: "5rem",
         }}
       >
         <p
