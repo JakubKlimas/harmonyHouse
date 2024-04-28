@@ -1,3 +1,5 @@
+import Arrow from "../../../assets/right-arrow.png";
+
 export const Card = ({ card }) => {
   const description = {
     __html: card.description,
@@ -43,7 +45,7 @@ export const Card = ({ card }) => {
         </p>
 
         <img
-          src="/src/assets/right-arrow.png"
+          src={Arrow}
           style={{ width: 40, fill: "white", marginRight: "1rem" }}
         />
       </button>
