@@ -5,7 +5,7 @@ export const Card = ({ card }) => {
 
   return (
     <div>
-      <h3 dangerouslySetInnerHTML={description} />
+      <h3 dangerouslySetInnerHTML={description} style={{ fontWeight: 100 }} />
       <button
         style={{
           border: "1px solid white",
