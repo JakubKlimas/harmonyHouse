@@ -27,7 +27,6 @@ function App() {
         style={{
           paddingBottom: "5rem",
           backgroundImage: `url("${Background}")`,
-          height: "130vh",
         }}
       >
         <Header />
