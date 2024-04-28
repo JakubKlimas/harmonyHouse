@@ -1,3 +1,5 @@
+import Arrow from "../assets/right-arrow.png";
+
 export const ProjectCard = ({ card, index }) => {
   const getMarginBasedOnCard = () => {
     switch (index) {
@@ -63,7 +65,7 @@ export const ProjectCard = ({ card, index }) => {
             />
           </div>
           <img
-            src="/src/assets/right-arrow.png"
+            src={Arrow}
             style={{
               width: 30,
               height: 20,

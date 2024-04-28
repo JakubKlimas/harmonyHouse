@@ -1,3 +1,6 @@
+import Arrow from "../assets/right-arrow.png";
+import ConstructionImg from "../assets/construction.png";
+
 export const Construction = ({ data }) => {
   const markupDescription = {
     __html: data?.posts?.edges[0]?.node?.costruction?.costruction?.description,
@@ -12,7 +15,7 @@ export const Construction = ({ data }) => {
   return (
     <section
       style={{
-        backgroundImage: 'url("/src/assets/construction.png")',
+        backgroundImage: `url("${ConstructionImg}")`,
         margin: "4rem 0 0 0",
         width: "100%",
         height: "100vh",
@@ -64,10 +67,7 @@ export const Construction = ({ data }) => {
             style={{ fontWeight: "bold", textAlign: "left" }}
             dangerouslySetInnerHTML={buttonText}
           ></p>
-          <img
-            src="/src/assets/right-arrow.png"
-            style={{ width: 40, fill: "#fff" }}
-          />
+          <img src={Arrow} style={{ width: 40, fill: "#fff" }} />
         </button>
       </article>
     </section>

@@ -1,5 +1,7 @@
 import { HarmonyCard } from "./HarmonyCard";
 
+import Three from "../assets/3.png";
+
 export const ThreeSteps = ({ data }) => (
   <section
     style={{
@@ -24,7 +26,7 @@ export const ThreeSteps = ({ data }) => (
         kroki <br /> do harmonii
       </h3>
       <img
-        src={"/src/assets/3.png"}
+        src={Three}
         style={{
           width: 300,
           height: 390,

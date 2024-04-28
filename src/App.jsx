@@ -13,6 +13,9 @@ import { GET_ALL_POSTS } from "./query/homepageQuery";
 import { FinancingSection } from "./components/FinancingSection/FinancingSection";
 import { ValuesSlider } from "./components/ValuesSlider/ValuesSlider";
 
+import Arrow from "./assets/right-arrow.png";
+import Background from "./assets/mainBackground.png";
+
 function App() {
   const { loading, error, data } = useQuery(GET_ALL_POSTS);
 
@@ -23,7 +26,8 @@ function App() {
       <div
         style={{
           paddingBottom: "5rem",
-          backgroundImage: 'url("/src/assets/mainBackground.png")',
+          backgroundImage: `url("${Background}")`,
+          height: "130vh",
         }}
       >
         <Header />
@@ -85,7 +89,7 @@ function App() {
             </p>
 
             <img
-              src="/src/assets/right-arrow.png"
+              src={Arrow}
               style={{ width: 40, fill: "#fff", marginRight: "1rem" }}
             />
           </button>

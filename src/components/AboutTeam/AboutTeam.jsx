@@ -1,5 +1,8 @@
 import "./aboutTeam.css";
 
+import Team from "../../assets/team.png";
+import Arrow from "../../assets/right-arrow.png";
+
 export const AboutTeam = ({ data }) => {
   const title = {
     __html: data?.posts?.edges[0]?.node?.team?.team?.title,
@@ -10,7 +13,7 @@ export const AboutTeam = ({ data }) => {
 
   return (
     <section className="about-team__container">
-      <img className="about-team__img" src={"/src/assets/team.png"} />
+      <img className="about-team__img" src={Team} />
       <article className="about-team__article">
         <h3 className="about-team__title" dangerouslySetInnerHTML={title} />
         <p
@@ -22,7 +25,7 @@ export const AboutTeam = ({ data }) => {
             {data?.posts?.edges[0]?.node?.team?.team?.btnText}
           </p>
           <img
-            src="/src/assets/right-arrow.png"
+            src={Arrow}
             style={{ width: 40, fill: "white", marginRight: "1rem" }}
           />
         </button>

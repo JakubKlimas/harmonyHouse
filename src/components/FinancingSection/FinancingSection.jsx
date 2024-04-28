@@ -1,5 +1,7 @@
-import HLogo from "../../assets/h-logo-big.png";
 import "./styles.css";
+
+import HLogo from "../../assets/h-logo-big.png";
+import Arrow from "../../assets/right-arrow.png";
 
 export const FinancingSection = () => {
   return (
@@ -55,7 +57,7 @@ export const FinancingSection = () => {
               </p>
 
               <img
-                src="/src/assets/right-arrow.png"
+                src={Arrow}
                 style={{ width: 40, fill: "white", marginRight: "1rem" }}
               />
             </button>
