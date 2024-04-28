@@ -31,7 +31,7 @@ function App() {
       >
         <Header />
         <MainCarouselCard />
-        <ValuesSlider />
+        <ValuesSlider data={data} />
       </div>
       <div
         style={{
