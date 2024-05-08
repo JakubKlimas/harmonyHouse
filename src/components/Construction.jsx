@@ -44,7 +44,7 @@ export const Construction = ({ data }) => {
             color: "#fff",
             textAlign: "left",
             fontSize: 30,
-            fontFamily: "Nexa , sans-serif",
+            fontFamily: "Nexa , sans-serif", lineHeight: 'normal'
           }}
           dangerouslySetInnerHTML={markupTitle}
         />
