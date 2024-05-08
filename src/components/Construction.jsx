@@ -52,19 +52,7 @@ export const Construction = ({ data }) => {
           style={{ textAlign: "left", fontSize: 16 }}
           dangerouslySetInnerHTML={markupDescription}
         />
-        <button
-          style={{
-            backgroundColor: "transparent",
-            border: "1px solid #fff",
-            display: "flex",
-            alignItems: "center",
-            gap: "2rem",
-            borderRadius: 50,
-            width: 170,
-            height: 55,
-            marginTop: "2rem",
-          }}
-        >
+        <button className="construction__cta">
           <p
             style={{ fontWeight: "bold", textAlign: "left" }}
             className="construction__cta-btn"

@@ -17,21 +17,26 @@ export const Card = ({ card }) => {
     >
       <h3
         dangerouslySetInnerHTML={description}
-        style={{ fontWeight: 100, fontSize: 40, marginTop: 0 }}
+        style={{
+          fontWeight: 100,
+          fontSize: 40,
+          marginTop: 0,
+          fontFamily: "Almarena Neue , sans-serif",
+        }}
       />
       <button
         className="card__cta-btn"
         style={{
           border: "1px solid white",
-          width: 230,
-          height: 60,
-          borderRadius: 100,
+          width: 240,
+          height: 80,
+          borderRadius: 37,
           backgroundColor: "transparent",
           bottom: 50,
           display: "flex",
           alignItems: "center",
           justifyContent: "flex-start",
-          gap: "0.8rem",
+          gap: "1.5rem",
           marginRight: "5rem",
         }}
       >

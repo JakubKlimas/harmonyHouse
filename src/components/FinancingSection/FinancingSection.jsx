@@ -29,7 +29,7 @@ export const FinancingSection = () => {
               style={{
                 border: "1px solid white",
                 width: 200,
-                height: 60,
+                height: 70,
                 borderRadius: 100,
                 backgroundColor: "transparent",
                 bottom: 50,

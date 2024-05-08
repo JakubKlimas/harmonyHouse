@@ -61,18 +61,16 @@ function App() {
           <button
             style={{
               border: "1px solid #1f4d39",
-              width: 280,
-              height: 60,
+              width: 290,
+              height: 70,
               borderRadius: 100,
               backgroundColor: "transparent",
               position: "absolute",
               bottom: 50,
-              marginLeft: "auto",
-              marginRight: "auto",
               display: "flex",
               alignItems: "center",
-              justifyContent: "flex-start",
-              gap: "2rem",
+              justifyContent: "center",
+              gap: "2.5rem",
             }}
           >
             <p
