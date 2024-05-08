@@ -1,11 +1,18 @@
+@font-face {
+  font-family: 'NazwaTwojejCzcionki';
+  src: url('../../../assets/fonts/Mark Simonson - Proxima Nova A Bold.otf') format('truetype');
+}
+
+
 li a {
-  font-family: Gotham Rounded, sans-serif;
-  font-size: 18px;
+  font-family: 'NazwaTwojejCzcionki';
+
   letter-spacing: 0px;
   line-height: 60px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
+
 }
 
 ul {
@@ -14,10 +21,13 @@ ul {
   justify-content: center;
   gap: 2rem;
   margin: 0;
+  padding-top: 65px;
+  margin-right: -7rem;
 }
 
 li {
   list-style-type: none;
+  font-family: 'NazwaTwojejCzcionki';
 }
 
 .btn__cta {
@@ -28,6 +38,9 @@ li {
   border-radius: 100px;
   width: 170px;
   height: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: bold;
 }
 
 .cta_link {
