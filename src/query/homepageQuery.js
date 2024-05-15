@@ -136,3 +136,69 @@ export const GET_ALL_POSTS = gql`
     }
   }
 `;
+
+export const GET_FINANSE_PAGE = gql`
+  query NewQuery {
+    posts {
+      nodes {
+        rutzky {
+          cards {
+            fieldGroupName
+          }
+        }
+        finanse {
+          finanse {
+            mainimage {
+              node {
+                id
+              }
+            }
+            sectionone {
+              benefits {
+                benefitone {
+                  icon {
+                    node {
+                      sourceUrl
+                      altText
+                    }
+                  }
+                  title
+                }
+                benefittree {
+                  title
+                  icon {
+                    node {
+                      altText
+                      sourceUrl
+                    }
+                  }
+                }
+                benefittwo {
+                  title
+                  icon {
+                    node {
+                      sourceUrl
+                      altText
+                    }
+                  }
+                }
+              }
+              title
+              description
+            }
+            sectiontwo {
+              image {
+                node {
+                  altText
+                  sourceUrl
+                }
+              }
+              btntext
+              description
+            }
+          }
+        }
+      }
+    }
+  }
+`;

@@ -22,7 +22,7 @@ export const Header = () => {
           <Link to={`contacts/2`}>O HARMONY HOUSE</Link>
         </li>
         <li>
-          <Link to={`contacts/2`}>FINANSOWANIE</Link>
+          <Link to={`finansowanie`}>FINANSOWANIE</Link>
         </li>
         <li>
           <Link to={`contacts/2`}>KONTAKT</Link>

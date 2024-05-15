@@ -1,0 +1,35 @@
+.nav-with-banner {
+  position: relative;
+  width: 100%;
+  height: 800px;
+}
+
+.nav-with-banner--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: auto;
+  margin-top: 3rem;
+  position: absolute;
+  top: 160px;
+  right: 0;
+  width: fit-content;
+}
+
+.nav-with-banner--logo {
+  position: absolute;
+  left: -140px;
+  top: 50px;
+  max-width: 400px;
+  width: 400px;
+  height: 100px;
+  max-height: 100px;
+}
+
+.nav-with-banner--main-img {
+  position: relative;
+  width: 105%;
+  max-width: 1800px;
+  height: 700px;
+}
