@@ -7,28 +7,28 @@ export const Header = () => {
     <nav>
       <ul>
         <li>
-          <Link to={`contacts/1`}>HOME</Link>
+          <Link to={`/contacts/1`}>HOME</Link>
         </li>
         <li>
-          <Link to={`contacts/2`}>TRZY KROKI</Link>
+          <Link to={`/contacts/2`}>TRZY KROKI</Link>
         </li>
         <li>
-          <Link to={`contacts/2`}>BUDOWA</Link>
+          <Link to={`/contacts/2`}>BUDOWA</Link>
         </li>
         <li>
-          <Link to={`contacts/2`}>PROJEKTY</Link>
+          <Link to={`/contacts/2`}>PROJEKTY</Link>
         </li>
         <li>
-          <Link to={`o-nas`}>O HARMONY HOUSE</Link>
+          <Link to={`/o-nas`}>O HARMONY HOUSE</Link>
         </li>
         <li>
-          <Link to={`finansowanie`}>FINANSOWANIE</Link>
+          <Link to={`/finansowanie`}>FINANSOWANIE</Link>
         </li>
         <li>
-          <Link to={`contacts/2`}>KONTAKT</Link>
+          <Link to={`/contacts/2`}>KONTAKT</Link>
         </li>
         <li className="btn__cta">
-          <Link className="cta_link" to={`contacts/2`}>
+          <Link className="cta_link" to={`/contacts/2`}>
             WYCENA ▶
           </Link>
         </li>
