@@ -3,6 +3,7 @@ import { useQuery } from "@apollo/client";
 import { GET_FINANSE_PAGE } from "../../query/homepageQuery";
 
 import Arrow from "../../assets/right-arrow.png";
+import ArrowSvg from "../../assets/arrow.svg";
 import ConstructionImg from "../../assets/construction.png";
 
 import { Footer } from "../../components/shared/footer/Footer";
@@ -18,33 +19,33 @@ export const Finanse = () => {
   const finanseObj = data.posts.nodes[0].finanse.finanse;
 
   const titleText = {
-    __html: finanseObj.sectionone.title,
+    __html: finanseObj?.sectionone?.title,
   };
 
   const descriptionText = {
-    __html: finanseObj.sectionone.description,
+    __html: finanseObj?.sectionone?.description,
   };
 
   const benefitOneTitle = {
-    __html: finanseObj.sectionone.benefits.benefitone.title,
+    __html: finanseObj?.sectionone?.benefits?.benefitone?.title,
   };
 
   const benefitTwoTitle = {
-    __html: finanseObj.sectionone.benefits.benefitone.title,
+    __html: finanseObj?.sectionone?.benefits?.benefitone?.title,
   };
 
   const benefitTreeTitle = {
-    __html: finanseObj.sectionone.benefits.benefitone.title,
+    __html: finanseObj?.sectionone?.benefits?.benefitone?.title,
   };
 
   const aboutDescription = {
-    __html: finanseObj.sectiontwo.description,
+    __html: finanseObj?.sectiontwo?.description,
   };
 
   // console.log(finanseObj);
   return (
     <>
-      <NavWithBanner />
+      <NavWithBanner img={finanseObj?.mainimage?.node?.sourceUrl} />
       <div className="finanse__main-container">
         <section className="finanse__sectionOne">
           <h2 className="finanse__title" dangerouslySetInnerHTML={titleText} />
@@ -87,7 +88,7 @@ export const Finanse = () => {
               <p className="finanse__btc-cta--text">
                 {finanseObj.sectiontwo.btntext}
               </p>
-              <img src={Arrow} />
+              <img src={ArrowSvg} />
             </button>
           </article>
           <img src={ConstructionImg} className="finanse__section-two--img" />

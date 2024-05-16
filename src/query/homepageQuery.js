@@ -150,7 +150,8 @@ export const GET_FINANSE_PAGE = gql`
           finanse {
             mainimage {
               node {
-                id
+                altText
+                sourceUrl
               }
             }
             sectionone {

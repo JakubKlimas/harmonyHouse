@@ -104,18 +104,24 @@
   color: #204d39;
   font-weight: bold;
   font-family: Durk Wide, sans-serif;
-  width: 300px;
+  width: 280px;
   height: 70px;
   border-radius: 100px;
   background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 5rem;
+  gap: 4rem;
   margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.finanse__btc-cta img {
+  filter: invert(23%) sepia(11%) saturate(2554%) hue-rotate(104deg)
+    brightness(89%) contrast(84%);
+  transform: rotate(90deg);
 }
 
 .finanse__btc-cta img {

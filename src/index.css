@@ -115,3 +115,165 @@ p {
 .card__main-container {
   transition: background 1s;
 }
+
+@font-face {
+  font-family: "Almarena-bold"; /*Can be any text*/
+  src: local("AlmarenaNeue-DisplaySemiBold"),
+    url("./fonts/AlmarenaNeue-DisplaySemiBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonsonProximaNovaALight"; /*Can be any text*/
+  src: local("MarkSimonsonProximaNovaALight"),
+    url("./fonts/MarkSimonsonProximaNovaALight.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaA"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaA"),
+    url("./fonts/MarkSimonson-ProximaNovaA.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaA2"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaA2"),
+    url("./fonts/MarkSimonson-ProximaNovaA2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaABlack"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaABlack"),
+    url("./fonts/MarkSimonson-ProximaNovaABlack.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaABlack2"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaABlack2"),
+    url("./fonts/MarkSimonson-ProximaNovaABlack2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaABlack3"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaABlack3"),
+    url("./fonts/MarkSimonson-ProximaNovaABlack3.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaABold"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaABold"),
+    url("./fonts/MarkSimonson-ProximaNovaABold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaABold2"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaABold2"),
+    url("./fonts/MarkSimonson-ProximaNovaABold2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAExtrabold"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAExtrabold"),
+    url("./fonts/MarkSimonson-ProximaNovaAExtrabold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAExtrabold2"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAExtrabold2"),
+    url("./fonts/MarkSimonson-ProximaNovaAExtrabold2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAExtrabold3"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAExtrabold3"),
+    url("./fonts/MarkSimonson-ProximaNovaAExtrabold3.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaALight"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaALight"),
+    url("./fonts/MarkSimonson-ProximaNovaALight.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaALight2"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaALight2"),
+    url("./fonts/MarkSimonson-ProximaNovaALight2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAMedium"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAMedium"),
+    url("./fonts/MarkSimonson-ProximaNovaAMedium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAMedium2"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAMedium2"),
+    url("./fonts/MarkSimonson-ProximaNovaAMedium2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAMedium3"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAMedium3"),
+    url("./fonts/MarkSimonson-ProximaNovaAMedium3.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaASemibold"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaASemibold"),
+    url("./fonts/MarkSimonson-ProximaNovaASemibold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaASemibold2"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaASemibold2"),
+    url("./fonts/MarkSimonson-ProximaNovaASemibold2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaASemibold3"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaASemibold3"),
+    url("./fonts/MarkSimonson-ProximaNovaASemibold3.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAThin"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAThin"),
+    url("./fonts/MarkSimonson-ProximaNovaAThin.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAThin2"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAThin2"),
+    url("./fonts/MarkSimonson-ProximaNovaAThin2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonson-ProximaNovaAThin3"; /*Can be any text*/
+  src: local("MarkSimonson-ProximaNovaAThin3"),
+    url("./fonts/MarkSimonson-ProximaNovaAThin3.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonsonProximaNovaA"; /*Can be any text*/
+  src: local("MarkSimonsonProximaNovaA"),
+    url("./fonts/MarkSimonsonProximaNovaA.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonsonProximaNovaA2"; /*Can be any text*/
+  src: local("MarkSimonsonProximaNovaA2"),
+    url("./fonts/MarkSimonsonProximaNovaA2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonsonProximaNovaABold"; /*Can be any text*/
+  src: local("MarkSimonsonProximaNovaABold"),
+    url("./fonts/MarkSimonsonProximaNovaABold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "MarkSimonsonProximaNovaABold2"; /*Can be any text*/
+  src: local("MarkSimonsonProximaNovaABold2"),
+    url("./fonts/MarkSimonsonProximaNovaABold2.otf") format("truetype");
+}
