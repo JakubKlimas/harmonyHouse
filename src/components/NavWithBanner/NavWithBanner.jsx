@@ -2,6 +2,7 @@ import { Header } from "../shared/header/Header";
 
 import Background from "../../assets/mainBackground.png";
 // import House from "../../assets/house.png";
+import House from "../../assets/house.png";
 import Logo from "../../assets/logo.png";
 
 import "./styles.css";

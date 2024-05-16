@@ -19,7 +19,7 @@ export const Header = () => {
           <Link to={`contacts/2`}>PROJEKTY</Link>
         </li>
         <li>
-          <Link to={`contacts/2`}>O HARMONY HOUSE</Link>
+          <Link to={`o-nas`}>O HARMONY HOUSE</Link>
         </li>
         <li>
           <Link to={`finansowanie`}>FINANSOWANIE</Link>
